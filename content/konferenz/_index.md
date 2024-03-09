@@ -5,7 +5,7 @@ layoutBackgroundHeaderSpace: false
 
 Wir freuen uns, euch mitzuteilen, dass wir auch im 2024 wieder eine Bitcoin Konferenz in Thun durchführen werden.
 
-Ort: Westhalle, Thun
+Ort: Westhalle, Thun<br />
 Datum: Samstag, 02. November 2024
 
 
