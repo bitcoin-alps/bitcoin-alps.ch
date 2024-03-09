@@ -1,52 +1,66 @@
 
 # Bitcoin Alps Website
 
-This README file explains how to install and use Hugo, the Blowfish theme, and the Hugo Modules feature to manage themes and other dependencies for the Bitcoin Alps website. It also shows you how to start a local development server and generate a production-ready version of your site for deployment.
+Diese README-Datei erklärt, wie Hugo, das Blowfish-Theme und das Hugo Modules Feature zur Verwaltung von Themes und anderen Abhängigkeiten für die Bitcoin Alps-Website installiert und verwendet werden. Sie zeigt auch, wie einen lokalen Entwicklungsserver gestartet und eine produktionsreife Version der Website für das Deployment generieren werden kann.
 
-## Installation
+## Lokale Installation
 
-1. Install Hugo:
+1. Installiere Hugo:
 
     ```bash
-    # on macOS
+    # macOS
     brew install hugo
 
-    # on Windows
+    # Windows
     choco install hugo -confirm
+
+    # Linux
+    sudo apt install hugo
     ```
 
-2. Clone the github repository:
+2. Klone das Github-Repository:
 
     ```bash
     git clone https://github.com/bitcoin-alps/bitcoin-alps.ch.git
     ```
 
-## Development
+## Entwicklung
 
-1. Start a local development server:
+1. Starte einen lokalen Entwicklungsserver:
 
     ```bash
     hugo server
     ```
 
-2. Open your browser and go to [http://localhost:1313] to view your site.
+2. Öffne deinen Browser und gehe zu [http://localhost:1313], um deine Website anzusehen.
 
-3. As you make changes to your content and templates, the site will be automatically rebuilt and the changes will be reflected in the browser.
+3. Sobald du Änderungen an deinen Inhalten und Vorlagen vornimmst, wird die Website automatisch neu aufgebaut und die Änderungen werden im Browser widergespiegelt.
 
-## Deployment
+## Kontinuierliches Deployment mit Cloudflare Pages
 
-1. Generate a production-ready version of your site:
+Wir verwenden Cloudflare Pages als vereinfachte Möglichkeit, die Bereitstellung der Hugo-Website jedes Mal zu automatisieren, wenn Änderungen an unserem Repository vorgenommen werden. Dies bedeutet, dass Cloudflare Pages die Site automatisch aus der Quelle erstellt und die aktualisierte Version im Web bereitstellt, wenn ein Commit in den Master-Zweig dieses Repositorys eingebunden wird.
 
-    ```bash
-    hugo
-    ````
+## Beitrag zu unserer Website
 
-2. The generated files will be placed in the public directory. You can then upload these files to a web server or hosting service.
+Wir leben den Open-Source-Geist, ganz wie das Ethos hinter Bitcoin, im Glauben, dass Zusammenarbeit und Transparenz zu besseren und innovativeren Ergebnissen führen. Alle ist willkommen, zu unserer Website beizutragen, und dies ist unkompliziert möglich – durch das Einreichen eines Pull Requests.
 
-## Update hugo template
+### Was ist ein Pull Request?
 
-Git submodules can be updated using the git command. Simply execute the following command and the latest version of the theme will be downloaded into your local repository:
+Ein Pull Request ist eine Möglichkeit, Änderungen an einem Repository vorzuschlagen, das auf Plattformen wie GitHub gehostet wird. Es ermöglicht dir, den vorhandenen Code zu nehmen, auf deinem eigenen Branch zu ändern und dann die Repository-Betreuer (uns) zu bitten, deine Änderungen in den Hauptcode einzufügen. 
+
+### Wie man beiträgt
+
+1. **Fork das Repository:** Zuerst erstelle einen Fork des Repositorys unserer Website. Diese Aktion kopiert das Repository auf deinen GitHub-Account und ermöglicht es dir, unabhängig Änderungen vorzunehmen.
+2. **Mache deine Änderungen:** Klone das Repository von deinem Account auf deinen lokalen Rechner und nimm die gewünschten Änderungen vor. Ob es darum geht, einen Tippfehler zu korrigieren, Inhalte hinzuzufügen oder das Design zu verbessern, deine Beiträge sind wertvoll.
+3. **Commit und Push:** Nachdem du deine Änderungen vorgenommen hast, committe sie zu deinem Branch und pushe die Änderungen zurück zu deinem GitHub-Repository.
+4. **Erstelle einen Pull Request:** Navigiere zum ursprünglichen Repository, von dem du geforkt hast. Du solltest eine Option sehen, um einen "Pull Request" basierend auf den Änderungen, die du zu deinem Repository gepusht hast, zu erstellen. Fülle die Details aus, erkläre, was du geändert hast und warum, und reiche die Anfrage ein.
+
+Wir werden deinen Beitrag überprüfen, möglicherweise um Anpassungen bitten, und wenn alles gut aussieht, deine Änderungen in den Hauptzweig mergen. Dein Beitrag wird dann Teil der Website sein, sichtbar und zugänglich für alle.
+
+## Hugo-Template aktualisieren
+
+Das "Blowfish"-Theme wird regelmäßig mit neuen Funktionen und Fixes aktualisiert. Das Theme kann mit folgendem befehl auf die neueste Version aktualisiert werden:
 
 ```bash
-git submodule update --remote --merge
+hugo mod get -u
 ```
