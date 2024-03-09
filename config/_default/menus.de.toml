@@ -74,7 +74,7 @@
 [[main]]
   identifier = "github"
   pre = "github"
-  url = "https://github.com/bitcoin-alps"
+  url = "https://github.com/bitcoin-alps/bitcoin-alps.ch"
   weight = 100
 
 # -- Footer Menu --
