@@ -8,7 +8,6 @@ Wir freuen uns, euch mitzuteilen, dass wir auch im 2024 wieder eine Bitcoin Konf
 Ort: Westhalle, Thun<br />
 Datum: Samstag, 02. November 2024
 
-
 ## Bitcoin Alps Konferenz 2023
 
 <p style="color:#ff9933"><b>Die erste Bitcoin Konferenz im Kanton Bern – Die Prämiere, ein voller Erfolg!</b></p>
@@ -17,11 +16,11 @@ Ein herzlicher Dank geht an alle Helfer, die unermüdlich im Hintergrund gewirkt
 
 Vor ausverkauftem Haus (200 Besucher) eröffnete Raphael Lanz, Stadtpräsident von Thun, zusammen mit Manfred Locher, Stadtratspräsident von Thun, die erste Bitcoin Konferenz im Kanton Bern. Moderiert wurde die Konferenz durch Ronnie Grob, Chefredaktor des Magazins «Schweizer Monat». Das Publikum zog Gäste aus der ganzen Schweiz und sogar Deutschland an, die im Bereich Bitcoin bereits erfahren sind oder auch Neulinge, die sich ein Bild des digitalen Geldes machen wollten. Im durchaus breite Publikum fanden sich Experten, interessierte Partner:innen, Eltern, Kinder und Jugendliche.
 
-## Impressionen
+### Impressionen
 
 {{< image-gallery gallery_dir="/img/konferenz23" >}}
 
-## Sponsoren
+### Sponsoren
 
 <a href="https://lipa.swiss/" target="_blank">
     <img src="/img/sponsor/lipa.jpg" alt="Lipa" width="200"/>
@@ -43,7 +42,7 @@ Vor ausverkauftem Haus (200 Besucher) eröffnete Raphael Lanz, Stadtpräsident v
     <img src="/img/sponsor/stadtthun.png" alt="Stadt Thun" style="width: 200px;">
 </a>
 
-## Medienpartner
+### Medienpartner
 
 <a href="https://schweizermonat.ch" target="_blank">
     <img src="/img/sponsor/schweizermonat.svg" alt="Schweizer Monat" style="width: 200px;">
