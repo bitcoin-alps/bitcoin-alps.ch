@@ -1,7 +1,15 @@
 ---
-title: "Bitcoin Alps Konferenz 2023"
+title: "Bitcoin Alps Konferenz 2024"
 layoutBackgroundHeaderSpace: false
 ---
+
+Wir freuen uns, euch mitzuteilen, dass wir auch im 2024 wieder eine Bitcoin Konferenz in Thun durchführen werden.
+
+Ort: Westhalle, Thun
+Datum: Samstag, 02. November 2024
+
+
+## Bitcoin Alps Konferenz 2023
 
 <p style="color:#ff9933"><b>Die erste Bitcoin Konferenz im Kanton Bern – Die Prämiere, ein voller Erfolg!</b></p>
 
